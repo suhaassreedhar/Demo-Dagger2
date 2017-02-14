@@ -1,4 +1,4 @@
-package com.suhaas.demodagger2.di;
+package com.suhaas.demodagger2.di.scope;
 
 
 import java.lang.annotation.Retention;

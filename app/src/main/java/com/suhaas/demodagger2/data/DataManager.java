@@ -7,7 +7,7 @@ import android.content.res.Resources;
 import com.suhaas.demodagger2.data.local.DbHelper;
 import com.suhaas.demodagger2.data.local.SharedPrefsHelper;
 import com.suhaas.demodagger2.data.model.User;
-import com.suhaas.demodagger2.di.ApplicationContext;
+import com.suhaas.demodagger2.di.scope.ApplicationContext;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

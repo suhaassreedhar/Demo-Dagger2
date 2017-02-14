@@ -1,12 +1,11 @@
-package com.suhaas.demodagger2.di;
-
+package com.suhaas.demodagger2.di.scope;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import javax.inject.Scope;
+import javax.inject.Qualifier;
 
-@Scope
+@Qualifier
 @Retention(RetentionPolicy.RUNTIME)
-public @interface PerActivity {
+public @interface ApplicationContext {
 }

@@ -10,8 +10,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import com.suhaas.demodagger2.data.model.User;
-import com.suhaas.demodagger2.di.ApplicationContext;
-import com.suhaas.demodagger2.di.DatabaseInfo;
+import com.suhaas.demodagger2.di.scope.ApplicationContext;
+import com.suhaas.demodagger2.di.scope.DatabaseInfo;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
