@@ -1,4 +1,4 @@
-package com.suhaas.demodagger2.data;
+package com.suhaas.demodagger2.data.model;
 
 
 public class User {
